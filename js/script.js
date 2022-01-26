@@ -140,7 +140,7 @@ function diceRoll(actual, max){
             height: '+=10px',
             width: '+=10px'
         },80, function(){
-            document.getElementsByClassName('dice')[0].style.backgroundImage = "url(../images/Dice/D"+number+".png)";
+            document.getElementsByClassName('dice')[0].style.backgroundImage = "url(./images/Dice/D"+number+".png)";
         });
     }
     else{
@@ -148,7 +148,7 @@ function diceRoll(actual, max){
             height: '-=10px',
             width: '-=10px'
         },80,function(){
-            document.getElementsByClassName('dice')[0].style.backgroundImage = "url(../images/Dice/D"+number+".png)";
+            document.getElementsByClassName('dice')[0].style.backgroundImage = "url(./images/Dice/D"+number+".png)";
         });
     }
     return number;
